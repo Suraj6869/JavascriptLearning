@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Type Conversion</title>
+</head>
+<body>
+<h1> Type Conversion and Coersion</h1>
+<script>
+    console.log("Hello You are Welcome");
+    let myVar;
+    myVar = 34
+    console.log(myVar, (typeof myVar));
+    
+    myVar = String(myVar);
+    console.log(myVar, (typeof myVar));
+
+    let booleanVar = true;
+    console.log(booleanVar, (typeof booleanVar));
+
+    let arr = [1,2,3,4,5];
+    console.log(arr, (typeof arr));
+
+    arr = String(arr);
+    console.log(arr, (typeof arr));
+    console.log(arr.length, (typeof arr.length));
+
+    let i = 8;
+    console.log(i.toString());
+
+    let stri = "1234";
+    console.log(stri, (typeof stri));
+
+    console.log(Number(stri), (typeof Number(stri)));
+
+    let number = parseFloat(34.06892);
+    console.log(number.toFixed(2), (typeof number));
+
+
+</script>
+</body>
+</html>
