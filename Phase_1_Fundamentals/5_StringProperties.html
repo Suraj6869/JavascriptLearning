@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>String Properties</title>
+</head>
+<body>
+<h1>String Properties</h1>
+
+  <script>
+  let str = "Hello World";
+  console.log(str);
+
+  const Name = "Suraj";
+  const greeting = "Good Morning";
+
+  console.log(greeting + " " + Name);
+
+  let html;
+  html = "<h1> Hello World </h1>"+
+        "<p> This is a paragraph </p>";
+  
+  html = html.concat(" This is a concatenated string");
+  console.log(html);
+  
+  console.log(html.length);
+  console.log(html.toLowerCase());
+  console.log(html.toUpperCase());
+  console.log(html[0]);
+
+  console.log(html.indexOf("World"));
+  console.log(html.lastIndexOf("World"));
+  console.log(html.charAt(0));
+  console.log(html.endsWith("string"));
+  console.log(html.includes("World"));
+
+
+  </script>
+</body>
+</html>
