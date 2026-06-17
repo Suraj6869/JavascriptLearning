@@ -1,0 +1,52 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Array Functions</title>
+    </head>
+    <body>
+        
+    </body>
+    <h1> hello</h1>
+    <script>
+        console.log("Welcome");
+        let n = 5;
+        
+    for (let i = 1; i <= n; i++) 
+    {
+            let row = "";
+            for (let j = 1; j <= i; j++) {
+                row += "* ";
+            }
+        console.log(row);
+    }
+    console.log("**********");
+    let m= 1;
+        for (let i =10;i>=m; --i) {
+            let row = "";
+            for (let j = 1; j <= i; j++) {
+                row += "* ";
+            }
+        console.log(row);
+    }
+    console.log("**********");
+
+    let arr = ["Suraj", "Rohit", "Sahil", "Amit", "Rahul"];
+
+    for (let i = 0; i<arr.length; i++)
+    {
+        const ELEMENT = arr[i];
+        console.log("yOUR NAME IS " + ELEMENT);
+    }
+
+    let obj = {
+        name: "John",
+        age: 30,
+        city: "New York"
+    };
+
+    for (let key in obj) {
+        console.log(`${key}: ${obj[key]}`);
+    }
+    </script>
+</html>
