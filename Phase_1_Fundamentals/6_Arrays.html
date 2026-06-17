@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outputs</title>
+</head>
+<body>
+    <h1>Outputs</h1>
+</body>
+<script>
+    const marks = [10,25,93,45,52];
+    const fruits = ["Apple", "Mango", "Banana", "Grapes"];
+    const mixed = ["str", 34, [3,4], true];
+    const arr = new Array(23, 123, 21, "Orange", "Apple");
+    console.log(marks);
+    console.log(fruits);      
+    console.log(mixed);
+    console.log(arr);
+
+    console.log(arr.length);
+    console.log(Array.isArray(arr));
+    console.log(arr[0]);
+    arr[0] = "Suraj";
+    console.log(arr);
+
+    let arrelement = arr[0];
+    console.log("Element: " + arrelement);
+
+    let value = marks.indexOf(45);
+    console.log(value);
+
+    marks.pop()
+    console.log(marks);
+
+    marks.shift()
+    console.log(marks);
+
+    marks.splice(1, 2);
+    console.log(marks);
+
+    
+
+
+
+
+</script>
+</html>
